@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row">
+    <div class="offset-sm-2 col-sm8">
+      <div class="card text-blank border-0">
+        <div class="card-body">
+          <div class="card-title text-center">
+            <h5>Signup</h5>
+          </div>
+
+          <div class="card-text">
+            <div class="form-group">
+              <input type="number" placeholder="Number 1" class="form-control" [(ngModel)]="num1">
+            
+            </div>
+
+            <div class="form-group">
+              <input type="number" class="form-control" placeholder="Number 2"   [(ngModel)]="num2">
+            </div>
+
+            <div class="text-center mb-3">
+              <button type="button" (click)="add()" class="btn btn-block btn-warning">Add</button>
+            </div>
+            <div class="form-group">
+              <input type="number" class="form-control" placeholder="Sum" [(ngModel)]="sum">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
